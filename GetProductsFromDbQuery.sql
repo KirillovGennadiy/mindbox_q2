@@ -1,6 +1,6 @@
 Select 
-	Products.Name as 'Имя продукта', 
-	Categories.name as 'Имя категории' 
+	Products.Name as 'РРјСЏ РїСЂРѕРґСѓРєС‚Р°', 
+	Categories.name as 'РРјСЏ РєР°С‚РµРіРѕСЂРёРё' 
 From Products
 left join ProductCategory on ProductCategory.ProductId = Products.Id
 left join Categories on ProductCategory.CategoryId = Categories.Id
